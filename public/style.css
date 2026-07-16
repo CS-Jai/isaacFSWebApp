@@ -1,3 +1,4 @@
+/*-------------------------------------------------- Basic Set up ----------------------------------------------------*/
 body{
     font-size: 1.125rem;
 }
@@ -6,6 +7,7 @@ main{
     display: flex;
 }
 
+/*-------------------------------------------------- Listener/Dice Box -----------------------------------------------*/
 .listenerBox, .numberRolled{
     max-width: 500px;
     display: flex;
@@ -30,6 +32,8 @@ main{
     background-color: red;
 }
 
+/*-------------------------------------------------- Text Boxes ------------------------------------------------------*/
+
 .consoleThingy{
     background-color: #000;
     color: green;
@@ -39,4 +43,19 @@ main{
     top: 0;
     right: 0;
     overflow-y: scroll;
+    display: none;
+}
+
+.alerts{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.alertMessages{
+    width: 300px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: goldenrod;
+    color: black;
 }

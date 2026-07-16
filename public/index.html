@@ -5,6 +5,7 @@
         <title>Main</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+        <script src="/socket.io/socket.io.js"></script>
         <script src="index.js" defer></script>
     </head>
     <body>
@@ -37,6 +38,15 @@
 
             <div class="consoleThingy">
                 <p>Helloooo</p>
+            </div>
+
+            <div class="alerts">
+                <div class="alertTabs">
+                    <a href="#" id="clearAll">clearAll</a>
+                </div>
+                <div class="alertMessages">
+
+                </div>
             </div>
         </main>
     </body>
